@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="UTP-8">
+<base target="_blank">
+<title>HTML IMAGES</title>
+<style>
+h1 { 
+ color:red;
+ font-family:ALGERIAN;
+ text-align:center;
+}
+h2 {
+ font-family:Broadway;
+ color:#0000ff;
+ text-align:left;
+}
+h3 {
+ font-family:Elephant;
+}
+p {
+ font-family:Old English Text MT;
+ font-size:2vw;
+}
+body {
+ background-color:rgba(0,200,100,0.4);
+}
+#T1 td {
+ font-size:20px;
+ padding:10px;
+}
+#T1 {
+ margin-left:40px;
+ height:400px;
+
+}
+#T1, #T1 th, #T1 td {
+ border-collapse:collapse;
+ border:2px solid black;
+}
+#T1 tr:nth-child(even){
+ background-color:rgba(100,100,100,0.3);
+}
+</style>
+<body>
+<h1 id="BT"><ins>HTML IMAGES</ins></h1>
+<p>In this chapter, I Ian Muindi will be discussing everything about images<br>Images can improve the appearance and the design of a web page</p>
+<h3>HTML IMAGE SYNTAX</h3>
+<p>The Html <mark><b><ins>&lt;img&gt;</ins></b></mark> tag is used to embed an image in a web page.Images are not technically inserted into a web page, images are linked to web pages.The <mark><ins><b>&lt;img&gt;</b></ins></mark> tag creates a holding space for the reference image. <br> The <mark><ins><b>&lt;img&gt;</b></ins></mark> tag is empty, it contains attributes only, and does not have a closing tag<br> The <mark><ins><b>&lt;img&gt;</b></ins></mark> has two requred attributes<br> These are;
+<dl style="list-style-type:disc">
+<dt><mark><b>src</b></mark></dt>
+<dd>Specifies the path to the image</dd>
+<dt><mark><b>alt</b></mark></dt>
+<dd>Specifies the alternate text for the image</dd>
+</dl>
+<h2>STYNTAX</h2>
+<p style="font-family:Times New Roman"><span style="color:red;text-align:center;"><mark>&lt;img src="url" alt="alternate text"&gt;</mark> </span></p>
+<h3>The src attribute</h3>
+<p>The required <mark><b>src</b></mark> attribute specifies the path (URL) to the image</p>
+<p><b>NOTE:</b>When a web page loads , it is the browser, at that moment, that gets the image from a web server and insert it into the page.Therefore, make sure that the image actually stays in the same sport in relation to the web page, otherwise your visitors will get a blocken link icon.<br>The broken link icon and the <mark><b>alt</b></mark> text are shown if the browser does not find the image</p>
+<h3>The alt attribute</h3>
+<p>The required <mark>alt</mark> attribute provides an alternate text for the image, if the user for some reasons cannot view the (because of slow connections, an error in the src attribute, or if the user uses a screen reader). The value of the alt attribute should describe the image.<br>If the browser cannot find the image, it will display the value of the alt attribute</p>
+<h3>Image size-Width and Height</h3>
+<p>You can use the style attribute to specify the width and the height of the image</p>
+<h3>For example</h3>
+<p style="font-family:Times New Roman;text-align:center;"><span style="color:red"><mark>&lt;img src="C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\FB_IMG_16577352846581893.jpg" alt="A joker" style="width:500px;height:600px;"&gt; </mark></span></p>
+<h3>Here is the image  whose code is above</h3>
+<figure><img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577352846581893.jpg" alt="A Joker" style="width:500px;height:600px;"></p><ficaption>FIG 1. An image whose size is defined by the style attribute</figcaption></figure>
+<h3>Defining the size of an image using the <mark><b>width</b></mark> <mark><b>height</b></mark> attributes</h3>
+<p>It is also possible to define the Size of an image using the <mark><b>width</b></mark> <mark><b> height</mark><b> attributes</p>
+<h3>Here is an example</h3>
+<p style="font-family:Times New Roman;text-align:center;"><span style="color:red"><mark>&lt;img src="C:\Users\KOINANGE\Documents\Ian's coding\pictures for web\FB_IMG_16577352846581893.jpg" alt="A joker" width="300" height="350"&gt; </mark></span></p>
+<h3>Here is an image with the codes above</h3>
+<figure><img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577352846581893.jpg" alt="A Joker" width="300" height="350"><figcaption>&nbsp;&nbsp;&nbsp;&nbsp; An image whose size is determined by <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width height attribute</figcaption></figure>
+<p style="color:red;"><b>However we encourage you to use the style tag in the heading section since it prevent the style sheet from changing the size of the image</b></p>
+<h3>Images on another server or website</h3>
+<p>Some web sites points to an image on another.<br>To point to an image on another server, you must specify an absolute (full) URL in the <mark><b>src</b></mark> attribute.</p>
+<p style="border:2px solid yellow;text-align:center;padding:2px"><b>NOTE</b> on external.External images might be under copyright.If you do not get permission to use it, you may be in violation of copyright. In addition, you cannot external images; it can suddenly be removed or change</p>
+<h3>Animated images</h3>
+<p>HTML also allow animated gifs</p>
+<h3>Images as a link</h3>
+<p>To use image as a link, put the <marK><b>&lt;img&gt;</b></mark> tag inside the <mark><b>&lt;a&gt;</b></mark> tag as described earlier under the topic links</p>
+<h3>Image floating</h3>
+<p>Use the CSS <mark><b>float</b></mark> property to let the image float to the right or the left of a text</p>
+<h3>Here is an example</h3>
+<h3>NOTE! NOTE! NOTE! this is just but an example</h3>
+<div style="background-color:rgba(70,70,70,0.3);padding:20px;margin:100px"><p style="font-family:lucida calligraphy"><img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577352846581893.jpg" alt="An example of image floating" style="width:250px;height:300px;float:right;">It is with humble acceptance of God's will that we announce the sudden death of Martin Darfton Thuku Kinyori M. of Mathioya Secondary school,Murang'a County.<br><br>Husband of Saraphinnah Wanjiku Njoki and father
+of Qylleen Wanjiku, Ben Thuku of Mihang'o Secondary School and the late Kinyori Macharia.<br><br>Grandson to Mrs. Margret Wanjiku B. Thuku and the late Mwalimu Ben Thuku Gatana of Gaitheri, Gaturi lacation, Murang'a County.<br>Nephwe of Eng. L.G.Thuku & Jane Njeri Gatana; Mary Wanjohi & the late Wanjohi Kaburi; Anne Kaguma & john Kaguma; Alfred Gatiaga Thuku & Catherine Thuku; John Kiiru & Fraciah Kiiru & Fraciah Kiiru; Primrose Wanjiku & Patrick Ngure. Cousin and friend to many.<br><br>The cortege leaves Montezuma
+Monalisa Funeral Home, Thika Road branch on Saturday 7<sup>th</sup> March, 2020 at 8:00am followed by Funeral servise at Gaitheri village, Gaturi location , Murang'a county.</p></div>
+<h2>COMMON IMAGE FORMATS</h2>
+<p>Here are the most common image file type, which are accepted in all browsers(chrome,Edge,Firefox,Safari,Opera)</p>
+<table id="T1" style="width:90%;">
+<caption>COMMON IMAGE FORMATS</caption>
+<tr>
+ <th>ABBREVIATION</th>
+ <th>FILE FORMAT</th>
+ <th> FILE EXTENSION</th>
+</tr>
+<tr>
+ <td>APNG</td>
+ <td>Animated portable Network graphics</td>
+ <td>.apng</td>
+</tr>
+<tr>
+ <td>Gif</td>
+ <td>Graphic interchange format</td>
+ <td>.gif</td>
+</tr>
+<tr>
+ <td>ICO</td>
+ <td>Microsoft icon</td>
+ <td>.ico, .cur</td>
+</tr>
+<tr>
+ <td>JPEG</td>
+ <td>Joint Photographic Expert Group image</td>
+ <td>.jpg .jpeg  .jfif .pjpeg .pjp</td>
+</tr>
+<tr>
+ <td>PNG</td>
+ <td>Portable Network graphics</td>
+ <td>.png</td>
+</tr>
+<tr>
+ <td>SVG</td>
+ <td>Scalable Vector Graphics</td>
+ <td>.svg</td>
+</tr>
+</table>
+<h1>HTML IMAGE MAPS</h1>
+<p>With HTML image maps, you can create clickable area in the image</p>
+<h3>Image maps</h3>
+<p>The Html <mark><b>&lt;map&gt;</b></mark> tag defines an image map.An image map is an image with clickable areas.The areas are defines with one or more <mark><b>&lt;area&gt;</b></mark> tags.</p>
+<h3>How does this works</h3>
+<p>The idea behind an image with map is that you should be able to perform defferent actions depending on where in the image you click.<br>To create an image map, you need an image, and some HTML codes that describes the clickable areas</p>
+<h3>The image</h3>
+<p>The image is inserted using the <mark><b>&lt;img&gt;</b></mark> tag. The only difference is that you add a <mark><b>usemap</b></marK> attribute<br>Here is an Example</p>
+<p style="font-family:Times New Roman;text-align:center;"><span style="color:red;"><mark><b>&lt;img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577352368899486.jpg" alt="Lips" style="width:250px;height:300px;" usemap="#Lips"&gt;</span></p>
+<p>The <mark><b><ins>usemap</ins></b></mark> value starts with a hash tag <marK>#</mark> followed by the name of the image map, and is used to create a relatioship between the image and the image map</p>
+<h3>Create an Image map</h3>
+<p>Then create a <mark>&lt;map&gt; </mark> element.<br>The <mark>&lt;map&gt;</mark> element is used to create an image map and is linked to the name of the image by using the required <mark>name</mark> attribute</p>
+<h3>Here is an example</h3>
+<p style="color:red;font-family:Times New Roman;">&lt;map name="Lips"&gt;</p>
+<p>The <mark>name</mark> attribute must have the same value as the <mark>&lt;img&gt; usemap</mark> attribute</p>
+<h3>The area</h3>
+<p>Then add a clickable area <br>A clickable area is defined by an &lt;area&gt; element.<p>
+<h3>Attributes present in the clickable area</h3>
+<h3> 1. Shape<h3>
+<p>You must include shape of the clickable area, and you can choose one of these values</p>
+<ol type="i" style="font-family:lucida calligraphy;">
+ <li><mark><b>rect-</b></mark> defines a rectangular region</li>
+ <li><mark><b>circle-</b></mark> defines a circular region</li>
+ <li><mark><b>poly-</b></mark> defines an polygonal region</li>
+ <li><mark><b>default- </b></mark> defines the entire region</li>
+</ol>
+<ol type="a" style="font-family:Imprint MT shadow;">
+ <li> Shape="rect"<br>The coordinates for <mark>shape="rect"</mark> come in pairs, one for the x-axis and the other for the y-axis.<br><br>So , the coodinates <mark>34,44</mark>is located 34 pixels from the left of margin and 44 pixels from the top:<br><br>The coordinates <mark>270,350</mark> is located 270 pixels from the left margin and 350 pixels from the top</li>
+ <li> Shape="circle"<br>To add a circle clickable area, first locate the coordinates of the center of the circle, Then specify the radius of the circle</li>
+ <li> Shape="poly"<br>This shape contains several coordinate points which creates a shape formed with straight line<br><br>This can be used to create any shape<br> Like maybe croissant shape</li>
+</ol>
+<h3> 2. Coordinates</h3>
+<p> The are the coordinates above</p>
+<h3> 3. The Href attribute</h3>
+<p>The href gives the link of the path to be followed after clicking on the clickable area</p>
+<h3>Image map on Javascript</h3>
+<p>A clickable area can also trgger a Javascript function<br>Add a click event on the area element to execute a Javascript</p>
+<h2>Here are the example of the Clickable<h2>
+<h3>Rect clickable area</h3>
+<img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577352368899486.jpg" alt="Lips" style="width:250px;height:300px;" usemap="#Lips">
+<p style="font-size:20px;color:purple;font-family:Times New Roman;background-color:white"><b>CLICK ON THE <ins><b><mark><q>LIPS</q></mark></b></ins> OF THE PICTURE ABOVE AND SEE WHAT WILL HAPPEN</b></p>
+<map name="Lips">
+<area shape="rect" coords="80,120,160,180" href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/LINKS/Link.html"></maps>
+<h3>Circle clickable area</h3>
+<img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577351819937084.jpg" alt="Eyes" style="width:250px;height:300px;" usemap="#Kieye">
+<map name="Kieye">
+<area shape="circle" coords="60,149,20" href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/Tables/Tables.html"></maps>
+<p style="font-size:20px;color:purple;font-family:Times New Roman;background-color:white"><b>CLICK ON THE <ins><b><mark><q>LEFT SIDE EYE</q></mark></b></ins> OF THE PICTURE ABOVE AND SEE WHAT WILL HAPPEN</b></p>
+<h3>Poly clickable area</h3>
+<img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\FB_IMG_16577352509279801.jpg" alt="Mouth" style="width:250px;height:300px;" usemap="#Mouth">
+<map name="Mouth">
+<area shape="poly" coords="30,200,30,130,75,145,180,110,190,150,180,200,75,170" href="file:///C:/Users/KOINANGE/Documents/Ian's%20coding/html/holizontal%20rule%20and%20line%20break/line%20break%20and%20horizontal%20rule.html"></map>
+<p style="font-size:20px;color:purple;font-family:Times New Roman;background-color:white"><b>CLICK ON THE <ins><b><mark><q>MOUTH</q></mark></b></ins> OF THE PICTURE ABOVE AND SEE WHAT WILL HAPPEN</b></p>
+<h1>HTML BACKGROUND IMAGES</h1>
+<p>In this chapter, I Ian Muindi will deal with background images</p>
+<p>A background image can be specified for almost all the HTML element</p>
+<h3>Background images on a html element</h3>
+<p>To add a HTML image on an element, you add the <mark><b>style</b></mark> attribute and the <mark><b>background-image</b></mark> property</p>
+<h4>Here cames the example</h4>
+<p><mark><b>&lt;p style="background-image:url(img_girl.jpg);"&gt;</b></mark></p>
+<p> You can also specify the background image in the &lt;head&gt; selection</p>
+<h4>Here cames the example</h4>
+<span style="color:indigo;"><pre style="background-color:rgb(80,80,80,0.3);font-size:18px;margin-right:50%;margin-left:10px;padding-left:5px;"><b>
+ &lt;head&gt;
+ &lt;style&gt;
+   p {
+  background-image:url(img_girl.jpg);
+}
+ &lt;/style&gt;
+ &lt;/head&gt;
+
+</b></pre></span>
+<p>Background images add very important features and appearance as well.</p>
+<p style="text-align:center"><img src="C:\Users\KOINANGE\Documents\Ian's coding\html\My images\IMG_20220717_170225_012.jpg" alt="Me and my beb" style="width:250px;height:300px;"></p>
+<h1>CODED BY IAN MUINDI</h1>
+<p style="text-align:right"><a href="#BT" target="_self"><button type="button">Back To Top</button></a></p>
+<p style="font-size:2.5vw"><a href="mailto:ianmuindi11706@gmail.com">Send me an email</a></p>
+</body>
+</html>
